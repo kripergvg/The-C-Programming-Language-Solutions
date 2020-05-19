@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define MAXLINE 1000
+
 void printBinary(int number);
 unsigned int setbits(unsigned int replacedNumber, unsigned int start, unsigned int bitsCount, unsigned int replacingFrom);
 
@@ -10,7 +12,7 @@ void main() {
 	unsigned int replacingFrom = 17; //0001_0001
 	unsigned int changedNumber = setbits(replacedNumber, start, bitsCount, replacingFrom);
 	printBinary(changedNumber);
-}
+} 
 
 
 void printBinary(int number) {

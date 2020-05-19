@@ -17,3 +17,7 @@
 *.app
 
 *.vs
+
+.idea
+
+*/**/Debug
